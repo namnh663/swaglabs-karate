@@ -20,7 +20,7 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
-      - browser-tools/install-browser-tools
+      - browser-tools/install-chrome
       # Use mvn clean and package as the standard maven build phase
       - run:
           name: Build
